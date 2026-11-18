@@ -639,7 +639,6 @@
               <th>Answered</th>
               <th>Correct</th>
               <th>Incorrect</th>
-              <th>Unkeyed / Unscored</th>
               <th>Accuracy</th>
             </tr>
           </thead>
@@ -1306,7 +1305,6 @@
         <div class="stat-box"><div class="stat-val">${pct}</div><div class="stat-lbl">Scored Accuracy (${correct}/${scoredTotal})</div></div>
         <div class="stat-box"><div class="stat-val" style="color:var(--correct);">${correct}</div><div class="stat-lbl">Correct${keanneCount ? ` (${keanneCount} Keanne)` : ""}</div></div>
         <div class="stat-box"><div class="stat-val" style="color:var(--incorrect);">${incorrect}</div><div class="stat-lbl">Incorrect</div></div>
-        <div class="stat-box"><div class="stat-val" style="color:var(--warn);">${unkeyed}</div><div class="stat-lbl">Unkeyed Practice Items</div></div>
         <div class="stat-box"><div class="stat-val">${unanswered}</div><div class="stat-lbl">Unanswered</div></div>
       `;
 
@@ -1323,7 +1321,6 @@
           <td>${r.answered}</td>
           <td style="color:var(--correct); font-weight:600;">${r.correct}</td>
           <td style="color:var(--incorrect); font-weight:600;">${r.incorrect}</td>
-          <td style="color:var(--warn);">${r.unkeyed}</td>
           <td><strong>${lPct}</strong></td>
         `;
         tbody.appendChild(tr);
