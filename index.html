@@ -721,6 +721,7 @@
       total_questions: BANKS.exam.questions.length + BANKS.physiology.questions.length,
       questions: [...BANKS.exam.questions, ...BANKS.physiology.questions]
     };
+    const GLOBAL_PROGRESS_KEY = "repro_global_question_progress_v1";
     const SECTION_KEYS = {
       exam: "repro_practice_exam_95_progress_v1",
       physiology: "repro_physiology_33_progress_v1",
@@ -765,47 +766,64 @@
       }
     }
 
-    function withGlobalSeen(baseProg) {
-      const mergedQuestions = { ...(baseProg.questions || {}) };
-      const mergedFlags = { ...(baseProg.flags || {}) };
-      for (const secKey of Object.values(SECTION_KEYS)) {
-        if (secKey === STORAGE_KEY) continue;
-        const other = readSectionStorage(secKey);
-        if (!other) continue;
-        if (other.questions) {
-          for (const [qid, st] of Object.entries(other.questions)) {
-            if (!mergedQuestions[qid]) {
-              mergedQuestions[qid] = { ...st };
-            } else {
-              const cur = mergedQuestions[qid];
-              // Merge seen/answered/correct/incorrect using max counters so global seen is reflected everywhere
-              cur.times_seen = Math.max(cur.times_seen || 0, st.times_seen || 0);
-              cur.times_answered = Math.max(cur.times_answered || 0, st.times_answered || 0);
-              cur.correct_count = Math.max(cur.correct_count || 0, st.correct_count || 0);
-              cur.incorrect_count = Math.max(cur.incorrect_count || 0, st.incorrect_count || 0);
-              if (st.last_result && !cur.last_result) cur.last_result = st.last_result;
-              cur.marked = !!(cur.marked || st.marked);
-            }
-          }
-        }
-        if (other.flags) {
-          for (const [qid, fl] of Object.entries(other.flags)) {
-            if (!mergedFlags[qid]) mergedFlags[qid] = { ...fl };
-          }
-        }
-      }
-      return { ...baseProg, questions: mergedQuestions, flags: mergedFlags };
+    function mergeStatRecord(target, src) {
+      if (!target) return { ...src };
+      target.times_seen = Math.max(target.times_seen || 0, src.times_seen || 0);
+      target.times_answered = Math.max(target.times_answered || 0, src.times_answered || 0);
+      target.correct_count = Math.max(target.correct_count || 0, src.correct_count || 0);
+      target.incorrect_count = Math.max(target.incorrect_count || 0, src.incorrect_count || 0);
+      if (src.last_result && !target.last_result) target.last_result = src.last_result;
+      target.marked = !!(target.marked || src.marked);
+      return target;
     }
 
     function loadProgress() {
-      const parsed = readSectionStorage(STORAGE_KEY);
-      const base = parsed ? { ...defaultProgress(), ...parsed, questions: parsed.questions || {}, flags: parsed.flags || {} } : defaultProgress();
-      return withGlobalSeen(base);
+      const globalData = readSectionStorage(GLOBAL_PROGRESS_KEY);
+      const secData = readSectionStorage(STORAGE_KEY);
+      const mergedQuestions = { ...(globalData && globalData.questions ? globalData.questions : {}) };
+      const mergedFlags = { ...(globalData && globalData.flags ? globalData.flags : {}) };
+
+      // One-time / continuous merge from any legacy per-section storage
+      if (!globalData) {
+        for (const secKey of Object.values(SECTION_KEYS)) {
+          const other = readSectionStorage(secKey);
+          if (!other) continue;
+          if (other.questions) {
+            for (const [qid, st] of Object.entries(other.questions)) {
+              mergedQuestions[qid] = mergeStatRecord(mergedQuestions[qid], st);
+            }
+          }
+          if (other.flags) {
+            for (const [qid, fl] of Object.entries(other.flags)) {
+              if (!mergedFlags[qid]) mergedFlags[qid] = { ...fl };
+            }
+          }
+        }
+      }
+
+      const theme = (globalData && globalData.theme) || (secData && secData.theme) || "dark";
+      const active_session = (secData && secData.active_session) || null;
+      return {
+        ...defaultProgress(),
+        theme,
+        questions: mergedQuestions,
+        flags: mergedFlags,
+        active_session
+      };
     }
 
     function saveProgress() {
       try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+        localStorage.setItem(GLOBAL_PROGRESS_KEY, JSON.stringify({
+          schema_version: 2,
+          theme: progress.theme,
+          questions: progress.questions || {},
+          flags: progress.flags || {}
+        }));
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({
+          schema_version: 2,
+          active_session: progress.active_session || null
+        }));
       } catch (e) {}
     }
 
@@ -1768,6 +1786,12 @@
         confirmText: "Reset Progress",
         onConfirm: () => {
           const theme = progress.theme;
+          try {
+            localStorage.removeItem(GLOBAL_PROGRESS_KEY);
+            for (const secKey of Object.values(SECTION_KEYS)) {
+              localStorage.removeItem(secKey);
+            }
+          } catch (e) {}
           progress = defaultProgress();
           progress.theme = theme;
           saveProgress();
