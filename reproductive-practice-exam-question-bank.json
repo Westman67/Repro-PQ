@@ -4,8 +4,8 @@
   "title": "Reproductive Medicine | Randomized Practice Exam (95 Questions)",
   "subtitle": "R13 Puberty / Transgender Health · R18 Pathology of Breast Diseases · R19 Primary and Secondary Amenorrhea · R21 Hypertension in Pregnancy",
   "total_questions": 95,
-  "keyed_questions": 77,
-  "unkeyed_questions": 18,
+  "keyed_questions": 95,
+  "unkeyed_questions": 0,
   "questions": [
     {
       "question_id": "repro-exam-q01",
@@ -258,14 +258,14 @@
         "Growth spurt, breast development, pubic hair",
         "Pubic hair, growth spurt, breast development"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "B",
-      "suggested_correct_index": 1,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: B (Breast development [thelarche], followed by pubic hair [pubarche], followed by peak growth spurt and menarche).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "B",
+      "correct_index": 1,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Breast development, pubic hair, growth spurt Explanation: • In most girls, puberty begins with breast development (thelarche), followed by pubic hair (pubarche), and then the peak growth spurt. • Menarche usually occurs after the peak growth spurt.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q09",
@@ -389,14 +389,14 @@
         "Luteinizing hormone (LH)",
         "Prolactin"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "A",
-      "suggested_correct_index": 0,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: A (Pulsatile secretion of Gonadotropin releasing hormone [GnRH] from the hypothalamus initiates puberty in both males and females).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "A",
+      "correct_index": 0,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Gonadotropin releasing hormone (GnRH) Explanation: • Puberty begins when pulsatile GnRH secretion from the hypothalamus increases. • GnRH stimulates the pituitary to release LH and FSH, which then activate the gonads. • LH and FSH act downstream of GnRH, and prolactin is not a primary initiator of puberty.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q13",
@@ -1107,14 +1107,14 @@
         "Suppression of GnRH secretion",
         "Chronic stimulation of GnRH secretion"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "C",
-      "suggested_correct_index": 2,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: C (Functional hypogonadotropic hypogonadism via hypothalamic suppression of GnRH secretion).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "C",
+      "correct_index": 2,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Suppression of GnRH secretion Explanation: • Chronic illness, undernutrition, and low energy availability suppress hypothalamic GnRH pulsatility. • Reduced GnRH lowers LH and FSH, causing functional hypogonadotropic hypogonadism and delayed puberty. • The defect is central, and the low gonadal hormone levels are a downstream result.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q35",
@@ -1172,14 +1172,14 @@
         "Tanner Stage 4",
         "Tanner Stage 5"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "A",
-      "suggested_correct_index": 0,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: A (Tanner Stage 2 pubic hair is sparse, long, slightly pigmented, straight or only slightly curled hair chiefly along the labia or at the base of the penis).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "A",
+      "correct_index": 0,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Tanner Stage 2 Explanation: • Tanner stage 1 has no pubic hair. • Stage 2 has sparse, long, slightly pigmented downy hair that is straight or slightly curled. • Stage 3 hair is darker, coarser, and curlier and spreads over the mons pubis. • Stage 4 is adult type hair over a smaller area, and stage 5 is adult type hair that spreads to the medial thighs.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q37",
@@ -1237,14 +1237,14 @@
         "Estrogen",
         "Androgens"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "D",
-      "suggested_correct_index": 3,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: D (Androgens stimulate sebaceous gland growth and sebum production during puberty).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "D",
+      "correct_index": 3,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Androgens Explanation: • Androgens stimulate sebaceous gland growth and sebum production and promote follicular plugging, which leads to comedones and acne. • The rise in adrenal and gonadal androgens at puberty explains why acne typically begins in early adolescence.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q39",
@@ -1400,14 +1400,14 @@
         "Estrogen",
         "FSH"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "C",
-      "suggested_correct_index": 2,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: C (Estrogen drives breast bud and ductal development [thelarche] during female puberty).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "C",
+      "correct_index": 2,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Estrogen Explanation: • Ovarian estrogen stimulates growth of ductal tissue, stroma, and fat in the breast, producing thelarche. • Progesterone contributes to lobuloalveolar development later. • Prolactin is needed for lactation and is not the driver of pubertal breast growth.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q44",
@@ -1597,14 +1597,14 @@
         "Menarche",
         "Development of breast buds"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "D",
-      "suggested_correct_index": 3,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: D (Development of breast buds [thelarche] is typically the first visible sign of female puberty).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "D",
+      "correct_index": 3,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Development of breast buds Explanation: • Thelarche, the appearance of breast buds, is usually the first visible sign of puberty in girls. • Pubic hair typically follows, the peak growth spurt occurs in mid puberty, and menarche comes later, often about 2 to 2.5 years after thelarche.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q50",
@@ -1629,14 +1629,14 @@
         "Luteinizing hormone (LH)",
         "DHEAS"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "B",
-      "suggested_correct_index": 1,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: B (Estrogen is not primarily responsible for male primary sexual characteristics, though note DHEAS is an adrenal androgen primarily driving adrenarche/pubic hair).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "B",
+      "correct_index": 1,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Estrogen Explanation: • In males, primary sexual characteristics such as testicular growth, spermatogenesis, and genital growth depend on LH, FSH, testosterone from Leydig cells, and other androgens such as DHEAS. • Estrogen is the main female pubertal sex steroid and is not a driver of male primary sexual development.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q51",
@@ -1726,14 +1726,14 @@
         "Race",
         "Body weight"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "A",
-      "suggested_correct_index": 0,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: A (While nutrition, body weight, chronic disease, and race/genetics directly affect puberty timing, check your R13 lecture slide for which option was keyed as non-influential).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "A",
+      "correct_index": 0,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Socioeconomic status Explanation: • Puberty timing is influenced mainly by genetics, race or ethnicity, body weight and nutrition, and chronic disease. • Socioeconomic status is not a direct biologic determinant of puberty timing and acts, at most, indirectly through nutrition and weight.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q54",
@@ -1791,14 +1791,14 @@
         "Pituitary gland",
         "Hypothalamus"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "B",
-      "suggested_correct_index": 1,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: B (The adrenal glands [zona reticularis] and ovaries produce androgens in females during puberty/adrenarche; check R13 Q1 lecture notes as ovaries produce testosterone while adrenals produce DHEA/DHEAS/androstenedione).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "A",
+      "correct_index": 0,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Ovaries Explanation: • During female puberty, ovarian theca cells stimulated by LH produce androgens (androstenedione and testosterone). • Granulosa cells stimulated by FSH convert these androgens to estradiol through aromatase. • The adrenal glands also release weaker androgens (DHEA and DHEAS), but the ovary is the main source of testosterone.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q56",
@@ -1890,14 +1890,14 @@
         "Enalapril",
         "Methyldopa"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "D",
-      "suggested_correct_index": 3,
-      "explanation": "No marked answer or explanation was provided for this question in the supplied R21 answer file.",
-      "suggested_explanation": "Suggested Reference Key: D (Enalapril is an ACE inhibitor and is contraindicated in pregnancy due to fetal renal dysplasia, oligohydramnios, and teratogenicity; labetalol, nifedipine, hydralazine, and methyldopa are safe in pregnancy).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "D",
+      "correct_index": 3,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Enalapril Explanation: • ACE inhibitors such as enalapril are contraindicated in pregnancy because they cause fetal renal dysplasia, oligohydramnios, and other teratogenic effects. • IV labetalol, oral nifedipine, IV hydralazine, and methyldopa are all considered safe in pregnancy.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q59",
@@ -2253,7 +2253,7 @@
       "unkeyed_in_source": false,
       "suggested_key_letter": null,
       "suggested_correct_index": null,
-      "explanation": "AMACR. Source key contains a letter/text inconsistency: it says “C. AMACR (P504S)” although AMACR is option B in the question. The answer is mapped to the matching option text.",
+      "explanation": "AMACR (P504S) Explanation: • Prostatic adenocarcinoma shows small crowded glands that lack a basal cell layer, so basal cell markers such as p63 are negative. • AMACR (P504S) is overexpressed in malignant prostatic glands and confirms malignancy.",
       "suggested_explanation": null,
       "status": "USABLE"
     },
@@ -2280,14 +2280,14 @@
         "Positive feedback to FSH",
         "Stimulation of Leydig cell"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "B",
-      "suggested_correct_index": 1,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: B (Sertoli cells support spermatogenesis / production of sperm in response to FSH and intratesticular testosterone).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "B",
+      "correct_index": 1,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Production of sperm Explanation: • Sertoli cells line the seminiferous tubules and, under FSH and testosterone, support and nourish developing germ cells to enable spermatogenesis. • They also secrete inhibin B, which gives negative feedback to FSH, and form the blood testis barrier. • Testosterone is made by Leydig cells.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q71",
@@ -2312,14 +2312,14 @@
         "Late menarche",
         "Severe acne"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "B",
-      "suggested_correct_index": 1,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: B (Early estrogen exposure accelerates epiphyseal fusion, leading to premature growth plate closure and short adult stature).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "B",
+      "correct_index": 1,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Premature growth plate closure and stature shorter than expected Explanation: • Early exposure to sex steroids accelerates growth at first but causes early epiphyseal fusion. • Untreated precocious puberty therefore leads to a shorter final adult height than expected.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q72",
@@ -2345,14 +2345,14 @@
         "Transient hypertension of pregnancy",
         "White coat hypertension"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "C",
-      "suggested_correct_index": 2,
-      "explanation": "No marked answer or explanation was provided for this question in the supplied R21 answer file.",
-      "suggested_explanation": "Suggested Reference Key: C (Hypertension [≥140/90 mm Hg] diagnosed before 20 weeks gestation is defined as chronic hypertension).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "C",
+      "correct_index": 2,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Chronic hypertension Explanation: • Hypertension of 140/90 mm Hg or higher that is present before 20 weeks gestation is classified as chronic hypertension. • Gestational hypertension and preeclampsia are defined by onset at or after 20 weeks.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q73",
@@ -2536,19 +2536,19 @@
       "case_context": null,
       "stem": "A 15 year old boy with obesity presents with visible but small bilateral breasts. On examination, no glandular tissue is palpable in the breasts. He likely has:",
       "options": [
-        "Precious puberty",
+        "Precocious puberty",
         "Pseudogynecomastia",
         "Gynecomastia",
         "A hypothalamic tumor"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "B",
-      "suggested_correct_index": 1,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: B (Pseudogynecomastia is subareolar fat deposition without palpable glandular breast tissue, classically seen in boys/men with obesity).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "B",
+      "correct_index": 1,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Pseudogynecomastia Explanation: • Pseudogynecomastia is excess fat deposition in the chest, common in obesity, with no palpable glandular tissue. • True gynecomastia has palpable, firm glandular tissue under the nipple. • Precocious puberty and hypothalamic tumors would not explain a boy this age having breast fat without glandular tissue.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q79",
@@ -2669,14 +2669,14 @@
         "Luteinizing hormone (LH)",
         "DHEAS"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "D",
-      "suggested_correct_index": 3,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: D (Adrenal androgens such as DHEAS drive adrenarche/pubarche and the development of pubic and axillary hair).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "D",
+      "correct_index": 3,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "DHEAS Explanation: • Adrenarche is the rise in adrenal androgens (DHEA and DHEAS) from the zona reticularis. • These adrenal androgens drive pubic and axillary hair growth (pubarche) and body odor. • LH and estrogen act through the gonads and breast rather than directly on pubic hair.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q83",
@@ -2961,14 +2961,14 @@
         "Production of testosterone",
         "Production of follicle-stimulating hormone (FSH)"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "C",
-      "suggested_correct_index": 2,
-      "explanation": "No answer annotations were present in either supplied R13 version. Answer not independently verified.",
-      "suggested_explanation": "Suggested Reference Key: C (Leydig cells in the testicular interstitium produce testosterone in response to LH).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "C",
+      "correct_index": 2,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Production of testosterone Explanation: • Leydig cells sit in the interstitium between seminiferous tubules and make testosterone when stimulated by LH. • Sertoli cells, not Leydig cells, support spermatogenesis. • DHEAS comes from the adrenal cortex and FSH comes from the anterior pituitary.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q92",
@@ -3026,14 +3026,14 @@
         "Enalapril",
         "Furosemide"
       ],
-      "key_letter": null,
-      "correct_index": null,
-      "unkeyed_in_source": true,
-      "suggested_key_letter": "B",
-      "suggested_correct_index": 1,
-      "explanation": "No marked answer or explanation was provided for this question in the supplied R21 answer file.",
-      "suggested_explanation": "Suggested Reference Key: B (Immediate-release oral nifedipine, IV labetalol, or IV hydralazine are first-line agents for acute severe hypertension [≥160/110 mm Hg] in pregnancy; magnesium sulfate is for seizure prophylaxis, not primary BP lowering, and methyldopa is not used for acute severe BP reduction).",
-      "status": "NEEDS_REVIEW"
+      "key_letter": "B",
+      "correct_index": 1,
+      "unkeyed_in_source": false,
+      "suggested_key_letter": null,
+      "suggested_correct_index": null,
+      "explanation": "Oral nifedipine Explanation: • Blood pressure of 160/110 mm Hg or higher that persists in pregnancy is a hypertensive emergency and should be treated within 30 to 60 minutes. • First line agents are IV labetalol, IV hydralazine, or immediate release oral nifedipine. • Magnesium sulfate prevents seizures but is not an antihypertensive, and ACE inhibitors are contraindicated in pregnancy.",
+      "suggested_explanation": null,
+      "status": "USABLE"
     },
     {
       "question_id": "repro-exam-q94",
