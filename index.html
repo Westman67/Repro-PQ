@@ -1370,6 +1370,7 @@
           sess.current_index = idx;
           saveProgress();
           renderQuizItem();
+          scrollToTop();
         };
         strip.appendChild(dot);
       });
@@ -1426,6 +1427,12 @@
       renderQuizItem();
     }
 
+    function scrollToTop() {
+      window.scrollTo(0, 0);
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    }
+
     function goNextOrFinish() {
       const sess = progress.active_session;
       if (!sess) return;
@@ -1433,6 +1440,7 @@
         sess.current_index++;
         saveProgress();
         renderQuizItem();
+        scrollToTop();
       } else {
         finishSession();
       }
@@ -1444,6 +1452,7 @@
       sess.current_index--;
       saveProgress();
       renderQuizItem();
+      scrollToTop();
     }
 
     function toggleMarkCurrent() {
