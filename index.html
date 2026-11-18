@@ -561,6 +561,14 @@
           <div class="pill-row" id="skillPills"></div>
         </div>
 
+        <div class="field-group hidden" id="bankOrderGroup" style="margin-top:18px;">
+          <label>Bank Order</label>
+          <div class="pill-row" id="bankOrderPills">
+            <button type="button" class="pill active" data-bankorder="mixed">Intermixed (Shuffle)</button>
+            <button type="button" class="pill" data-bankorder="sequential">Exam, then Physiology</button>
+          </div>
+        </div>
+
         <div class="field-group" style="margin-top:18px;">
           <label>Session Length</label>
           <div class="pill-row" id="lengthPills">
@@ -747,6 +755,7 @@
     let config = {
       mode: "learn",
       order: "exact",
+      bankOrder: "mixed",
       optOrder: "exact",
       unkeyedMode: "strict",
       lectures: new Set(["R13", "R18", "R19", "R21"]),
@@ -923,6 +932,7 @@
       document.querySelectorAll("#sectionSwitcher .pill").forEach(btn => {
         btn.classList.toggle("active", btn.dataset.section === activeSection);
       });
+      document.getElementById("bankOrderGroup").classList.toggle("hidden", activeSection !== "combined");
       document.getElementById("brandTitle").textContent = BANK.title;
       document.getElementById("homeTitle").textContent = BANK.title;
       document.getElementById("homeSubtitle").textContent = BANK.subtitle;
@@ -1079,7 +1089,7 @@
 
     function buildSessionItems(questionList) {
       let orderedQuestions = [...questionList];
-      if (config.order === "shuffle") {
+      if (config.order === "shuffle" || (activeSection === "combined" && config.bankOrder === "mixed")) {
         // Group by vignette_group_id so shared clinical vignettes stay together in order
         const groups = [];
         const groupMap = new Map();
@@ -1631,6 +1641,14 @@
         document.querySelectorAll("#unkeyedModePills .pill").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
         config.unkeyedMode = btn.dataset.unkeyed;
+      };
+    });
+
+    document.querySelectorAll("#bankOrderPills .pill").forEach(btn => {
+      btn.onclick = () => {
+        document.querySelectorAll("#bankOrderPills .pill").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        config.bankOrder = btn.dataset.bankorder;
       };
     });
 
