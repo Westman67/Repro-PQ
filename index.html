@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -512,7 +512,6 @@
       <button type="button" class="btn" id="btnExport">Export Progress</button>
       <button type="button" class="btn" id="btnImport">Import Progress</button>
       <button type="button" class="btn" id="btnReset">Reset Progress</button>
-      <button type="button" class="btn" id="btnTheme">Light / Dark</button>
     </div>
   </header>
 
@@ -526,10 +525,6 @@
         </p>
 
         <div class="hero-grid" id="heroStats"></div>
-
-        <div class="note-banner">
-          <strong>Answer-Key Notes:</strong> All 95 questions are keyed. R13 answers follow the bolded choices in the provided R13 PDF. R21 Q15 to Q17 (#93, #58, #72) are not marked in the provided R21 file, so their keys (B, D, C) are reference keys added with explanations. R18 Q3 (#69) is keyed to <strong>B. AMACR</strong>.
-        </div>
       </div>
 
       <div class="card">
@@ -543,17 +538,6 @@
             </div>
           </div>
 
-          <div class="field-group">
-            <label>Question &amp; Option Ordering</label>
-            <div class="pill-row" id="orderPills">
-              <button type="button" class="pill active" data-order="exact">Exact PDF Order (#1–#95)</button>
-              <button type="button" class="pill" data-order="shuffle">Shuffle (Keep Shared Vignettes Together)</button>
-            </div>
-            <div class="pill-row" style="margin-top:8px;" id="optOrderPills">
-              <button type="button" class="pill active" data-optorder="exact">Exact PDF Choices (A–E)</button>
-              <button type="button" class="pill" data-optorder="shuffle">Shuffle Choices</button>
-            </div>
-          </div>
         </div>
 
 
@@ -696,7 +680,7 @@
     function defaultProgress() {
       return {
         schema_version: 1,
-        theme: "dark",
+        theme: "light",
         questions: {},
         active_session: null
       };
@@ -752,11 +736,7 @@
     }
 
     function applyTheme() {
-      if (progress.theme === "light") {
-        document.documentElement.setAttribute("data-theme", "light");
-      } else {
-        document.documentElement.removeAttribute("data-theme");
-      }
+      document.documentElement.setAttribute("data-theme", "light");
     }
 
     // Dialog helper (never use native alert/confirm/prompt)
@@ -1437,22 +1417,6 @@
       };
     });
 
-    document.querySelectorAll("#orderPills .pill").forEach(btn => {
-      btn.onclick = () => {
-        document.querySelectorAll("#orderPills .pill").forEach(b => b.classList.remove("active"));
-        btn.classList.add("active");
-        config.order = btn.dataset.order;
-      };
-    });
-
-    document.querySelectorAll("#optOrderPills .pill").forEach(btn => {
-      btn.onclick = () => {
-        document.querySelectorAll("#optOrderPills .pill").forEach(b => b.classList.remove("active"));
-        btn.classList.add("active");
-        config.optOrder = btn.dataset.optorder;
-      };
-    });
-
     document.querySelectorAll("#unkeyedModePills .pill").forEach(btn => {
       btn.onclick = () => {
         document.querySelectorAll("#unkeyedModePills .pill").forEach(b => b.classList.remove("active"));
@@ -1497,12 +1461,6 @@
         confirmText: "End & Score",
         onConfirm: () => finishSession()
       });
-    };
-
-    document.getElementById("btnTheme").onclick = () => {
-      progress.theme = progress.theme === "light" ? "dark" : "light";
-      saveProgress();
-      applyTheme();
     };
 
     document.getElementById("btnExport").onclick = () => {
