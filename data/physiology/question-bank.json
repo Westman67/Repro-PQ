@@ -1,0 +1,1400 @@
+{
+  "schema_version": 2,
+  "bank_id": "reproductive-physiology-practice-packet-33",
+  "title": "Reproductive Physiology | Randomized Practice Exam Packet (33 Questions)",
+  "subtitle": "R2 Male Physiology · R5–R7 Pregnancy & Neonatal Physiology (with Shared Answer Bank Q5–Q11)",
+  "total_questions": 33,
+  "keyed_questions": 33,
+  "unkeyed_questions": 0,
+  "questions": [
+    {
+      "question_id": "repro-phys-q01",
+      "exam_number": 1,
+      "lecture_id": "R2",
+      "lecture_title": "R2 Male Reproductive Physiology",
+      "original_id": "Q1",
+      "citations": [
+        "R2 Q1"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "morphology",
+      "question_type": "Direct recall",
+      "tested_concept": "R2 Q1",
+      "vignette_group_id": "phys-single-q01",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "Sperm are primarily stored in the",
+      "options": [
+        "prostate gland",
+        "seminal vesicles",
+        "epididymis and vas deferens",
+        "urethra",
+        "bladder"
+      ],
+      "choice_rationales": [
+        "Incorrect: The prostate gland is an accessory gland that provides nutritional and supportive secretions for semen, not sperm storage.",
+        "Incorrect: Seminal vesicles are accessory glands that provide nutritional and supportive fluid for semen, not sperm storage.",
+        "Correct: Sperm are stored in the tail of the epididymis and the vas deferens for several months without loss of viability.",
+        "Incorrect: The urethra transports semen outside the body during ejaculation and does not store sperm.",
+        "Incorrect: The bladder stores urine, not sperm or semen."
+      ],
+      "key_letter": "C",
+      "correct_index": 2,
+      "accepted_correct_indices": [
+        2
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "‘C’ is correct: Sperm are stored in the tail of the epididymis and the vas deferens for several months without loss of viability (Fig.13). • A & B: Prostate gland (A) and seminal vesicles (B) are accessory glands, they provide the semen with nutritional and supportive materials for sperms (Figs. 14-15). • D: The urethra is a tube that does not store sperm but instead allows semen to be transported outside the body by ejaculation. • E: The bladder stores urine, and not sperm and semen.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q02",
+      "exam_number": 2,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q20",
+      "citations": [
+        "R5–R7 Q20"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Direct recall",
+      "tested_concept": "R5–R7 Q20",
+      "vignette_group_id": "phys-single-q02",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "Prolactin is normally responsible for which of the following actions?",
+      "options": [
+        "Promoting large oxytocin secretion during parturition",
+        "Limiting the rise of oxytocin during pregnancy and initiating labor",
+        "Stimulating synthesis and secretion of milk into the alveolar lumen",
+        "Directly initiating growth of lactiferous ducts during pregnancy",
+        "Causing development of tight junctions in the final stage of breast maturation"
+      ],
+      "choice_rationales": [
+        "Incorrect: Prolactin does not promote oxytocin secretion during parturition.",
+        "Incorrect: Prolactin does not limit oxytocin rise or initiate labor.",
+        "Correct: Binding of prolactin to mammary epithelial receptors stimulates both synthesis (production) and secretion of milk into the alveolar lumen.",
+        "Incorrect: Ductal growth during pregnancy is primarily driven by estrogen rather than prolactin.",
+        "Incorrect: Tight junction closure in breast maturation is driven by progesterone withdrawal postpartum rather than prolactin directly."
+      ],
+      "key_letter": "C",
+      "correct_index": 2,
+      "accepted_correct_indices": [
+        2
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "C is correct- Prolactin has two major functions when binding to its receptor on epithelial cells: 1) to produce milk and 2) to secrete milk into the alveolar lumen (#33-34). All other options are not performed by prolactin.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q03",
+      "exam_number": 3,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q19",
+      "citations": [
+        "R5–R7 Q19"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Clinical vignette",
+      "tested_concept": "R5–R7 Q19",
+      "vignette_group_id": "phys-single-q03",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "A mother with her first newborn reports difficulty breastfeeding despite breast engorgement. She feels anxious and stressed after delivery. Which of the following best explains her reduced milk ejection?",
+      "options": [
+        "Low oxytocin release in response to nursing",
+        "Low prolactin secretion in response to nursing",
+        "Insufficient cortisol release",
+        "Low vasopressin production",
+        "A and B"
+      ],
+      "choice_rationales": [
+        "Correct: Breast engorgement indicates milk is being produced (normal prolactin), so failure of milk let-down/ejection during stress is due to low oxytocin release.",
+        "Incorrect: Breast engorgement shows milk has already been synthesized in the alveoli, indicating adequate prolactin.",
+        "Incorrect: Cortisol insufficiency does not explain isolated stress-induced failure of milk let-down.",
+        "Incorrect: Vasopressin does not mediate milk ejection.",
+        "Incorrect: Because her breasts are engorged, milk synthesis (prolactin) is intact and the deficit is specifically oxytocin-mediated ejection."
+      ],
+      "key_letter": "A",
+      "correct_index": 0,
+      "accepted_correct_indices": [
+        0
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "A is correct- The mother has engorged breasts (milk filled in alveoli) but fails to have sufficient milk let-down in response to the baby sucking, indicating a normal prolactin level (B), but a lack of milk ejection (milk let-down) due to low oxytocin (#34). Alternatively, if without breast engorgement, E could be prioritized because both oxytocin and prolactin synthesis/releases are very sensitive to stress.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q04",
+      "exam_number": 4,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q22",
+      "citations": [
+        "R5–R7 Q22"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Direct recall",
+      "tested_concept": "R5–R7 Q22",
+      "vignette_group_id": "phys-single-q04",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "During pregnancy, prolactin’s lactogenic effects on the breast are inhibited primarily by which of the following?",
+      "options": [
+        "GnRH",
+        "FSH and LH",
+        "Estrogen and progesterone",
+        "Prolactin and oxytocin",
+        "All of the above"
+      ],
+      "choice_rationales": [
+        "Incorrect: GnRH does not directly inhibit prolactin's lactogenic effects on mammary tissue.",
+        "Incorrect: FSH and LH are suppressed during pregnancy and do not inhibit breast lactogenesis.",
+        "Correct: High circulating estrogen and progesterone during pregnancy inhibit prolactin's lactogenic actions on the breast until they drop sharply after delivery.",
+        "Incorrect: Prolactin and oxytocin promote milk production and ejection rather than inhibiting lactogenesis.",
+        "Incorrect: Only estrogen and progesterone mediate this inhibition."
+      ],
+      "key_letter": "C",
+      "correct_index": 2,
+      "accepted_correct_indices": [
+        2
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "C is correct- High circulating levels of estrogen and progesterone during pregnancy inhibit prolactin's actions on the breasts, preventing lactation. After labor, the significant reduction in these two hormones removes their inhibitory effects on the breasts, allowing lactation to occur (32).",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q05",
+      "exam_number": 5,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q8",
+      "citations": [
+        "R5–R7 Q8"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Shared answer bank",
+      "tested_concept": "R5–R7 Q8",
+      "vignette_group_id": "R5-R7-SHARED-Q8-Q14",
+      "vignette_label": "SHARED ANSWER BANK | R5–R7 | Original Q8–Q14",
+      "case_context": "For each of the following physiologic effects during pregnancy and parturition, select the hormone or substance that is primarily responsible.",
+      "stem": "stimulates uterus contraction and serves as an initiator of parturition",
+      "options": [
+        "Human chorionic gonadotropin (hCG)",
+        "Human placental lactogen (hPL)",
+        "Estrogen",
+        "Oxytocin",
+        "Prostaglandins (PGE₂, PGF₂α, PGI₂)",
+        "Progesterone"
+      ],
+      "choice_rationales": [
+        "Incorrect: hCG maintains the corpus luteum in early pregnancy rather than initiating parturition.",
+        "Incorrect: hPL increases maternal insulin resistance rather than initiating parturition.",
+        "Incorrect: Estrogen upregulates uterine receptors and gap junctions, whereas prostaglandins serve as the initiator of parturition.",
+        "Incorrect: Oxytocin is a potentiator of parturition rather than the primary initiator.",
+        "Correct: Prostaglandins (PGE₂, PGF₂α, PGI₂) stimulate uterine contractions and serve as an initiator of parturition.",
+        "Incorrect: Progesterone relaxes uterine smooth muscle and inhibits contractions during pregnancy."
+      ],
+      "key_letter": "E",
+      "correct_index": 4,
+      "accepted_correct_indices": [
+        4
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "stimulates uterus contraction and serves as an initiator of parturition (E; #24))",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q06",
+      "exam_number": 6,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q9",
+      "citations": [
+        "R5–R7 Q9"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Shared answer bank",
+      "tested_concept": "R5–R7 Q9",
+      "vignette_group_id": "R5-R7-SHARED-Q8-Q14",
+      "vignette_label": "SHARED ANSWER BANK | R5–R7 | Original Q8–Q14",
+      "case_context": "For each of the following physiologic effects during pregnancy and parturition, select the hormone or substance that is primarily responsible.",
+      "stem": "Causes cervical softening, dilation, and thinning",
+      "options": [
+        "Human chorionic gonadotropin (hCG)",
+        "Human placental lactogen (hPL)",
+        "Estrogen",
+        "Oxytocin",
+        "Prostaglandins (PGE₂, PGF₂α, PGI₂)",
+        "Progesterone"
+      ],
+      "choice_rationales": [
+        "Incorrect: hCG maintains the early corpus luteum.",
+        "Incorrect: hPL regulates maternal glucose/lipid metabolism.",
+        "Incorrect: Estrogen promotes uterine excitability, not directly cervical ripening like prostaglandins.",
+        "Incorrect: Oxytocin contracts the uterine myometrium but does not directly cause cervical softening.",
+        "Correct: Prostaglandins (especially PGE₂ and PGI₂) cause cervical softening, dilation, and thinning (ripening).",
+        "Incorrect: Progesterone maintains cervical closure during pregnancy."
+      ],
+      "key_letter": "E",
+      "correct_index": 4,
+      "accepted_correct_indices": [
+        4
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "Causes cervical softening, dilation, and thinning (E; PGE2/PGI2; #24))",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q07",
+      "exam_number": 7,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q10",
+      "citations": [
+        "R5–R7 Q10"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Shared answer bank",
+      "tested_concept": "R5–R7 Q10",
+      "vignette_group_id": "R5-R7-SHARED-Q8-Q14",
+      "vignette_label": "SHARED ANSWER BANK | R5–R7 | Original Q8–Q14",
+      "case_context": "For each of the following physiologic effects during pregnancy and parturition, select the hormone or substance that is primarily responsible.",
+      "stem": "Serves as a luteinizing hormone analog to maintain corpus luteum activity during early gestation",
+      "options": [
+        "Human chorionic gonadotropin (hCG)",
+        "Human placental lactogen (hPL)",
+        "Estrogen",
+        "Oxytocin",
+        "Prostaglandins (PGE₂, PGF₂α, PGI₂)",
+        "Progesterone"
+      ],
+      "choice_rationales": [
+        "Correct: hCG acts as an LH analog to maintain the corpus luteum and progesterone secretion during early gestation.",
+        "Incorrect: hPL modulates maternal insulin resistance and nutrient availability.",
+        "Incorrect: Estrogen does not act as an LH analog to rescue the corpus luteum.",
+        "Incorrect: Oxytocin acts during labor and lactation.",
+        "Incorrect: Prostaglandins promote luteolysis/parturition rather than maintaining the corpus luteum.",
+        "Incorrect: Progesterone is produced by the corpus luteum in response to hCG."
+      ],
+      "key_letter": "A",
+      "correct_index": 0,
+      "accepted_correct_indices": [
+        0
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "Serves as a luteinizing hormone analog to maintain corpus luteum activity during early gestation (A; #14, 18 & 20)",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q08",
+      "exam_number": 8,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q11",
+      "citations": [
+        "R5–R7 Q11"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Shared answer bank",
+      "tested_concept": "R5–R7 Q11",
+      "vignette_group_id": "R5-R7-SHARED-Q8-Q14",
+      "vignette_label": "SHARED ANSWER BANK | R5–R7 | Original Q8–Q14",
+      "case_context": "For each of the following physiologic effects during pregnancy and parturition, select the hormone or substance that is primarily responsible.",
+      "stem": "Increases maternal insulin resistance during pregnancy.",
+      "options": [
+        "Human chorionic gonadotropin (hCG)",
+        "Human placental lactogen (hPL)",
+        "Estrogen",
+        "Oxytocin",
+        "Prostaglandins (PGE₂, PGF₂α, PGI₂)",
+        "Progesterone"
+      ],
+      "choice_rationales": [
+        "Incorrect: hCG maintains the corpus luteum and stimulates fetal adrenal/liver maturation.",
+        "Correct: Human placental lactogen (hPL) increases maternal insulin resistance to ensure adequate glucose transfer to the fetus.",
+        "Incorrect: Estrogen is not the primary placental driver of maternal insulin resistance.",
+        "Incorrect: Oxytocin does not increase maternal insulin resistance.",
+        "Incorrect: Prostaglandins mediate parturition and cervical ripening.",
+        "Incorrect: Progesterone is not the primary driver of gestational insulin resistance compared with hPL."
+      ],
+      "key_letter": "B",
+      "correct_index": 1,
+      "accepted_correct_indices": [
+        1
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "Increases maternal insulin resistance during pregnancy. (B; #18)",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q09",
+      "exam_number": 9,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q12",
+      "citations": [
+        "R5–R7 Q12"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Shared answer bank",
+      "tested_concept": "R5–R7 Q12",
+      "vignette_group_id": "R5-R7-SHARED-Q8-Q14",
+      "vignette_label": "SHARED ANSWER BANK | R5–R7 | Original Q8–Q14",
+      "case_context": "For each of the following physiologic effects during pregnancy and parturition, select the hormone or substance that is primarily responsible.",
+      "stem": "Elevates respiratory center sensitivity to carbon dioxide.",
+      "options": [
+        "Human chorionic gonadotropin (hCG)",
+        "Human placental lactogen (hPL)",
+        "Estrogen",
+        "Oxytocin",
+        "Prostaglandins (PGE₂, PGF₂α, PGI₂)",
+        "Progesterone"
+      ],
+      "choice_rationales": [
+        "Incorrect: hCG does not regulate maternal respiratory center CO₂ sensitivity.",
+        "Incorrect: hPL regulates maternal metabolism rather than respiratory drive.",
+        "Incorrect: Progesterone (not estrogen) is the primary hormone increasing respiratory center CO₂ sensitivity.",
+        "Incorrect: Oxytocin acts on uterine smooth muscle and mammary myoepithelial cells.",
+        "Incorrect: Prostaglandins act locally on the uterus and cervix.",
+        "Correct: Progesterone elevates medullary respiratory center sensitivity to CO₂, increasing minute ventilation during pregnancy."
+      ],
+      "key_letter": "F",
+      "correct_index": 5,
+      "accepted_correct_indices": [
+        5
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "Elevates respiratory center sensitivity to carbon dioxide (F; #23).",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q10",
+      "exam_number": 10,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q13",
+      "citations": [
+        "R5–R7 Q13"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Shared answer bank",
+      "tested_concept": "R5–R7 Q13",
+      "vignette_group_id": "R5-R7-SHARED-Q8-Q14",
+      "vignette_label": "SHARED ANSWER BANK | R5–R7 | Original Q8–Q14",
+      "case_context": "For each of the following physiologic effects during pregnancy and parturition, select the hormone or substance that is primarily responsible.",
+      "stem": "Stimulates fetal adrenal gland and liver maturation",
+      "options": [
+        "Human chorionic gonadotropin (hCG)",
+        "Human placental lactogen (hPL)",
+        "Estrogen",
+        "Oxytocin",
+        "Prostaglandins (PGE₂, PGF₂α, PGI₂)",
+        "Progesterone"
+      ],
+      "choice_rationales": [
+        "Correct: hCG stimulates fetal adrenal gland and liver maturation so both organs can supply enzymes needed for placental estrogen synthesis.",
+        "Incorrect: hPL regulates maternal insulin resistance and nutrient partitioning.",
+        "Incorrect: Estrogen is the end product of fetoplacental collaboration rather than the stimulus for fetal adrenal/liver maturation.",
+        "Incorrect: Oxytocin acts on labor and milk ejection.",
+        "Incorrect: Prostaglandins mediate parturition.",
+        "Incorrect: Progesterone maintains pregnancy rather than stimulating fetal adrenal/liver maturation."
+      ],
+      "key_letter": "A",
+      "correct_index": 0,
+      "accepted_correct_indices": [
+        0
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "A is correct — HCG stimulates fetal adrenal gland and liver maturation. Both fetal organs can provide enzymes that are absent in the placenta but essential for the synthesis of estrogen. (#18 & #19).",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q11",
+      "exam_number": 11,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q14",
+      "citations": [
+        "R5–R7 Q14"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Shared answer bank",
+      "tested_concept": "R5–R7 Q14",
+      "vignette_group_id": "R5-R7-SHARED-Q8-Q14",
+      "vignette_label": "SHARED ANSWER BANK | R5–R7 | Original Q8–Q14",
+      "case_context": "For each of the following physiologic effects during pregnancy and parturition, select the hormone or substance that is primarily responsible.",
+      "stem": "Contracts the uterus and serves as a potentiator of parturition",
+      "options": [
+        "Human chorionic gonadotropin (hCG)",
+        "Human placental lactogen (hPL)",
+        "Estrogen",
+        "Oxytocin",
+        "Prostaglandins (PGE₂, PGF₂α, PGI₂)",
+        "Progesterone"
+      ],
+      "choice_rationales": [
+        "Incorrect: hCG acts in early gestation to maintain the corpus luteum.",
+        "Incorrect: hPL modulates maternal insulin resistance.",
+        "Incorrect: Estrogen upregulates oxytocin receptors and gap junctions rather than directly contracting the uterus.",
+        "Correct: Oxytocin contracts uterine smooth muscle and serves as a potentiator of parturition.",
+        "Incorrect: Prostaglandins serve as an initiator of parturition and ripen the cervix.",
+        "Incorrect: Progesterone relaxes the myometrium."
+      ],
+      "key_letter": "D",
+      "correct_index": 3,
+      "accepted_correct_indices": [
+        3
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "Contracts the uterus and serves as a potentiator of parturition (D; #25 & #26)",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q12",
+      "exam_number": 12,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q4",
+      "citations": [
+        "R5–R7 Q4"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Clinical vignette",
+      "tested_concept": "R5–R7 Q4",
+      "vignette_group_id": "phys-single-q12",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "A 46,XX embryo develops ovaries and proceeds along a female phenotypic pathway. This developmental process is determined by which of the above?",
+      "options": [
+        "Wolffian duct",
+        "Müllerian duct",
+        "The presence of Y chromosome",
+        "The presence of X chromosome",
+        "The absence of Y chromosome"
+      ],
+      "choice_rationales": [
+        "Incorrect: The Wolffian duct regresses in the absence of testosterone.",
+        "Incorrect: The Müllerian duct forms internal female structures as a consequence of absent AMH, rather than determining gonadal/phenotypic commitment.",
+        "Incorrect: The Y chromosome (SRY) directs male testicular development.",
+        "Incorrect: Female phenotypic development is the default pathway driven by absence of Y/SRY rather than presence of X.",
+        "Correct: The absence of a Y chromosome (and its SRY gene) leads to ovarian development, no AMH or testosterone, and female phenotypic differentiation."
+      ],
+      "key_letter": "E",
+      "correct_index": 4,
+      "accepted_correct_indices": [
+        4
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "E is correct- Without Y chromosome, gonads develop into ovaries that have no antimullerian hormone and testosterone; without antimullerian hormone, Mullerian duct develops into female phenotypic sex, while regression of Wolffian duct without testosterone.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q13",
+      "exam_number": 13,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q26",
+      "citations": [
+        "R5–R7 Q26"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "interpretation",
+      "question_type": "Direct recall",
+      "tested_concept": "R5–R7 Q26",
+      "vignette_group_id": "phys-single-q13",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "Regarding fetal and neonatal circulation and their transition at birth, all of the following are correct EXCEPT:",
+      "options": [
+        "Termination of placental circulation by cord clamping initiates the transition to neonatal circulation",
+        "Increased systemic pressure and reduced pulmonary pressure stop the right-to-left shunt",
+        "Chronic patent foramen ovale (PFO) may originally cause left heart failure",
+        "Chronic patent ductus arteriosus (PDA) may originally cause pulmonary hypertension and right heart dysfunction",
+        "After neonatal circulation is established, the pulmonary artery carries deoxygenated blood to the lungs"
+      ],
+      "choice_rationales": [
+        "Incorrect (True statement): Clamping the umbilical cord terminates low-resistance placental circulation and initiates the neonatal circulatory transition.",
+        "Incorrect (True statement): Rising systemic vascular resistance and falling pulmonary vascular resistance reverse/stop the fetal right-to-left shunts.",
+        "Correct (EXCEPT / False statement): A chronic PFO shunts left atrial blood into the right atrium, increasing right heart preload and initially causing RIGHT (not left) heart failure.",
+        "Incorrect (True statement): A chronic PDA shunts aortic blood into the pulmonary artery, causing pulmonary hypertension and right heart dysfunction.",
+        "Incorrect (True statement): In established neonatal/adult circulation, the pulmonary artery carries deoxygenated blood to the lungs."
+      ],
+      "key_letter": "C",
+      "correct_index": 2,
+      "accepted_correct_indices": [
+        2
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "C is excepted answer- Chronic PFO (patent foramen ovale) may have originally caused right, not left, heart failure because left atrial blood can regurgitate into the right atrium through the PFO. This increases right heart preload, initially causing right heart dysfunction, followed by right heart failure (#5 & 7). All other statements are correct.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q14",
+      "exam_number": 14,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q7",
+      "citations": [
+        "R5–R7 Q7"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "management",
+      "question_type": "Clinical vignette",
+      "tested_concept": "R5–R7 Q7",
+      "vignette_group_id": "phys-single-q14",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "A 28-year-old woman in active labor receives an intravenous infusion of oxytocin to enhance uterine contractions. This hormone is most important for which of the following physiological processes?",
+      "options": [
+        "Facilitation of labor",
+        "Initiation of parturition",
+        "Development of the breast during pregnancy",
+        "Stimulation of milk synthesis by epithelial cells in the breast",
+        "Release of cortisol by the fetal adrenal gland"
+      ],
+      "choice_rationales": [
+        "Correct: Oxytocin progressively increases during labor to potentiate and facilitate uterine contractions.",
+        "Incorrect: Initiation of parturition is driven by prostaglandins rather than oxytocin.",
+        "Incorrect: Breast development during pregnancy is primarily estrogen/progesterone-dependent.",
+        "Incorrect: Milk synthesis by alveolar epithelial cells is stimulated by prolactin.",
+        "Incorrect: Fetal adrenal cortisol release is stimulated by CRH-induced ACTH."
+      ],
+      "key_letter": "A",
+      "correct_index": 0,
+      "accepted_correct_indices": [
+        0
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "A is correct. Release of oxytocin is progressively increased during labor to potentiate/enhance the laboring process (#25). Option B is caused by prostaglandins (#24). Option C is primarily an estrogen-dependent response (#18). Option D relates to the function of prolactin (#33 & 34). Option E is caused by CRH-induced release of ACTH, which stimulates the fetal adrenal gland to release cortisol (#25).",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q15",
+      "exam_number": 15,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q24",
+      "citations": [
+        "R5–R7 Q24"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "study_skill": "interpretation",
+      "question_type": "Clinical vignette",
+      "tested_concept": "R5–R7 Q24",
+      "vignette_group_id": "phys-single-q15",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "In response to stress, neonatal hearts may exhibit bradycardia, whereas adult hearts respond primarily with tachycardia. Neonatal hearts are characterized by dominant sympathetic tone and incomplete parasympathetic innervation. Which of the following best describes these statements?",
+      "options": [
+        "The first sentence is true; the second sentence is false",
+        "The first sentence is false; the second sentence is true",
+        "Both sentences are true",
+        "Both sentences are false"
+      ],
+      "choice_rationales": [
+        "Correct: The first sentence is true (neonates can respond to stress with bradycardia), whereas the second sentence is false because neonatal hearts have dominant PARASYMPATHETIC tone and incomplete sympathetic innervation.",
+        "Incorrect: The first sentence is true and the second sentence has the autonomic tones reversed.",
+        "Incorrect: The second sentence is false because sympathetic innervation is incomplete in neonates.",
+        "Incorrect: The first sentence is true."
+      ],
+      "key_letter": "A",
+      "correct_index": 0,
+      "accepted_correct_indices": [
+        0
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "A is correct- Neonatal hearts have a dominant parasympathetic never tone while their sympathetic innervation is incomplete (#10). This explains why in response to stress stimulation, neonatal hearts may generate a bradycardic response while adult hearts mainly express tachycardia (first sentence).",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q16",
+      "exam_number": 16,
+      "lecture_id": "R2",
+      "lecture_title": "R2 Male Reproductive Physiology",
+      "original_id": "Q3",
+      "citations": [
+        "R2 Q3"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Direct recall",
+      "tested_concept": "R2 Q3",
+      "vignette_group_id": "phys-single-q16",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "Which of the following statements about estrogen in the male are correct and false:",
+      "options": [
+        "Estrogen is produced from testosterone in adipose tissue, brain, skin, endothelium, and bone by the action of the enzyme 5-alpha reductase.",
+        "Male-pattern baldness is due to overexpression of estrogen counteracting the stimulation of hair growth by testosterone.",
+        "Estradiol generated in the testes plays an important role in the negative feedback regulation of the hypothalamic-pituitary-gonadal (HPG) axis to control testosterone production by Leydig cells.",
+        "In males, circulating estrogen is predominately produced by peripheral tissue (extra-testicular)- located aromatase that converses circulation testosterone to estradiol.",
+        "The estrogen-initiated feedback signal in males is driven primarily by circulating estrogen, most of which originates from peripheral aromatization rather than directly from the testes."
+      ],
+      "choice_rationales": [
+        "Incorrect (False statement): Testosterone is converted to estradiol by aromatase, not 5-alpha reductase (which converts testosterone to DHT).",
+        "Incorrect (False statement): Male-pattern baldness is driven by DHT acting on susceptible hair follicles, not estrogen overexpression.",
+        "Incorrect (False statement): Testicular estradiol acts primarily locally in spermatogenesis; systemic HPG feedback comes mainly from peripherally aromatized circulating estradiol.",
+        "Correct (True statement — Key: D & E): Roughly 80–90% of circulating estradiol in males is produced by peripheral tissue aromatase converting testosterone to estradiol.",
+        "Correct (True statement — Key: D & E): Systemic HPG negative feedback by estrogen in males is driven primarily by circulating estradiol from peripheral aromatization rather than direct testicular secretion."
+      ],
+      "key_letter": "D, E",
+      "correct_index": 3,
+      "accepted_correct_indices": [
+        3,
+        4
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "Source Key: D, E (Both D and E are correct; A, B, and C are false). ‘A’ is false: The enzyme converting testosterone into estradiol is aromatase (not 5-alpha reductase). • ‘B’ is false: Male-pattern baldness is caused by DHT (via 5alpha-reductase) on genetically susceptible hair follicles. • ‘C’ is false: Feedback is driven primarily by circulating estradiol from peripheral aromatization, whereas testicular estradiol mainly supports spermatogenesis. • ‘D’ is correct: ~80-90% of circulating estradiol is produced by peripheral aromatization. • ‘E’ is correct: Circulating estradiol from peripheral aromatization drives systemic HPG negative feedback.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q17",
+      "exam_number": 17,
+      "lecture_id": "R2",
+      "lecture_title": "R2 Male Reproductive Physiology",
+      "original_id": "Q6",
+      "citations": [
+        "R2 Q6"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Direct recall",
+      "tested_concept": "R2 Q6",
+      "vignette_group_id": "phys-single-q17",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "An increase in which of the following is the primary event in initiating a boy’s pubertal development.",
+      "options": [
+        "Adrenal steroids",
+        "FSH/LH ratio",
+        "GnRH pulses",
+        "Morning erection",
+        "Size of testes"
+      ],
+      "choice_rationales": [
+        "Incorrect: Adrenarche (adrenal steroids) occurs at age 6–10 and is independent of gonadarche/HPG puberty initiation.",
+        "Incorrect: FSH/LH ratio changes occur after puberty into adulthood (LH exceeds FSH).",
+        "Correct: An increase in pulsatile hypothalamic GnRH release is the primary initiating event of male puberty.",
+        "Incorrect: Morning erections result from increased LH pulsatility downstream of GnRH activation.",
+        "Incorrect: Testicular enlargement occurs in response to an already-activated HPG axis."
+      ],
+      "key_letter": "C",
+      "correct_index": 2,
+      "accepted_correct_indices": [
+        2
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "‘C’ is correct. The one event that precedes all others is an increase in the pulsatile release of GnRH. • ‘A’. Adrenarche occurs between 6-10 years old and is independent of gonadarche. • ‘B’. Changes in FSH/LH ratio occur after puberty. • ‘D’. Morning erections are a consequence of increased LH pulses downstream of GnRH. • ‘E’. Testicular enlargement is a response to the activated HPG axis.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q18",
+      "exam_number": 18,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q1",
+      "citations": [
+        "R5–R7 Q1"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "morphology",
+      "question_type": "Clinical vignette",
+      "tested_concept": "R5–R7 Q1",
+      "vignette_group_id": "phys-single-q18",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "A 12-week-old male fetus is examined, and the internal genital structures are found to be derived from a duct system that differentiates under the influence of testosterone. Which of the above embryologic structures gives rise to these male internal genitalia?",
+      "options": [
+        "Wolffian duct",
+        "Müllerian duct",
+        "The presence of Y chromosome",
+        "The presence of X chromosome",
+        "The absence of Y chromosome"
+      ],
+      "choice_rationales": [
+        "Correct: The Wolffian (mesonephric) duct differentiates under testosterone stimulation into the male internal genital tract (epididymis, vas deferens, seminal vesicles).",
+        "Incorrect: The Müllerian duct gives rise to female internal genitalia and regresses in males due to AMH.",
+        "Incorrect: The Y chromosome determines testicular differentiation, whereas the Wolffian duct is the embryologic duct structure itself.",
+        "Incorrect: The X chromosome does not give rise to the male duct system.",
+        "Incorrect: Absence of the Y chromosome leads to female phenotypic development."
+      ],
+      "key_letter": "A",
+      "correct_index": 0,
+      "accepted_correct_indices": [
+        0
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "A is correct- The Wolffian duct is stimulated by testosterone to form the male reproductive tract, contributing to male phenotypic sex.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q19",
+      "exam_number": 19,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q17",
+      "citations": [
+        "R5–R7 Q17"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Clinical vignette",
+      "tested_concept": "R5–R7 Q17",
+      "vignette_group_id": "phys-single-q19",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "Placental synthesis of hormones requires cooperation with the fetal adrenal cortex and liver. Which of the following hormones results from this fetoplacental collaboration?",
+      "options": [
+        "Progesterone",
+        "Estrone (EI)",
+        "Androstenedione",
+        "Estriol (E3)",
+        "Estradiol (E2)"
+      ],
+      "choice_rationales": [
+        "Incorrect: Progesterone is synthesized by the placenta from maternal cholesterol without requiring fetal adrenal/liver enzymes.",
+        "Incorrect: Estrone (E1) is primarily produced by peripheral tissues such as adipose tissue and skin.",
+        "Incorrect: Androstenedione is an androgen precursor rather than the primary fetoplacental estrogen.",
+        "Correct: Estriol (E3) is the primary placental estrogen synthesized through fetoplacental collaboration involving the fetal adrenal cortex (DHEAS) and fetal liver (16α-hydroxylation).",
+        "Incorrect: Estradiol (E2) is the major estrogen produced by the ovaries in non-pregnant reproductive-age women."
+      ],
+      "key_letter": "D",
+      "correct_index": 3,
+      "accepted_correct_indices": [
+        3
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "D is correct- E3 is the primary form of estrogen released from the placenta (#19). E2 is the major estrogen produced by ovaries in non-pregnant reproductive women (E). E1 is primarily released from peripheral tissues such as adipose tissue and skin (B).",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q20",
+      "exam_number": 20,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q3",
+      "citations": [
+        "R5–R7 Q3"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Clinical vignette",
+      "tested_concept": "R5–R7 Q3",
+      "vignette_group_id": "phys-single-q20",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "A 46,XY embryo develops testes that subsequently secrete testosterone and anti-Müllerian hormone, leading to male phenotypic differentiation. This developmental pathway is primarily determined by which of the above?",
+      "options": [
+        "Wolffian duct",
+        "Müllerian duct",
+        "The presence of Y chromosome",
+        "The presence of X chromosome",
+        "The absence of Y chromosome"
+      ],
+      "choice_rationales": [
+        "Incorrect: The Wolffian duct responds to testosterone downstream of testicular development.",
+        "Incorrect: The Müllerian duct regresses under AMH downstream of testicular development.",
+        "Correct: The Y chromosome carries the SRY (testis-determining) gene, which directs gonads to become testes and initiate male phenotypic differentiation.",
+        "Incorrect: The X chromosome does not carry the testis-determining gene.",
+        "Incorrect: Absence of the Y chromosome leads to ovarian/female differentiation."
+      ],
+      "key_letter": "C",
+      "correct_index": 2,
+      "accepted_correct_indices": [
+        2
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "C is correct- Y chromosome contains testis-determining gene that directs gonads develop into testes. Testes release testosterone and anti-Müllerian hormone: testosterone stimulates Wolffian duct to form male phenotype, while anti-Müllerian hormone regresses Mullerian duct.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q21",
+      "exam_number": 21,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q16",
+      "citations": [
+        "R5–R7 Q16"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Direct recall",
+      "tested_concept": "R5–R7 Q16",
+      "vignette_group_id": "phys-single-q21",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "All of the following statements regarding hormonal effects on uterine physiology are correct EXCEPT:",
+      "options": [
+        "Progesterone relaxes uterine muscle cells (#18)",
+        "Estrogen stimulates prostaglandin production and upregulates its receptors (#24)",
+        "Oxytocin receptors are downregulated by estrogen",
+        "Estrogen upregulates gap junction formation between smooth muscle cells of the uterus (#24)",
+        "Cortisol facilitates functional progesterone withdrawal (#25)"
+      ],
+      "choice_rationales": [
+        "Incorrect (True statement): Progesterone maintains uterine quiescence by relaxing myometrial smooth muscle cells.",
+        "Incorrect (True statement): Estrogen stimulates prostaglandin synthesis and upregulates prostaglandin receptors.",
+        "Correct (EXCEPT / False statement): Oxytocin receptors are UPREGULATED (not downregulated) by estrogen and prostaglandins.",
+        "Incorrect (True statement): Estrogen upregulates myometrial gap junctions (connexin-43) to coordinate labor contractions.",
+        "Incorrect (True statement): Cortisol facilitates functional progesterone withdrawal near term."
+      ],
+      "key_letter": "C",
+      "correct_index": 2,
+      "accepted_correct_indices": [
+        2
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "C is the excepted answer- the oxytocin receptor is upregulated by estrogen and prostaglandins (#24). All others are correct.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q22",
+      "exam_number": 22,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q18",
+      "citations": [
+        "R5–R7 Q18"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Direct recall",
+      "tested_concept": "R5–R7 Q18",
+      "vignette_group_id": "phys-single-q22",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "Prolactin acts on the breast to cause which of the following?",
+      "options": [
+        "Milk released into the lactiferous ducts",
+        "Milk ejection (let-down) in response to suckling",
+        "Milk production during pregnancy",
+        "Contraction of myoepithelial cells",
+        "Milk secretion into the alveolar lumen"
+      ],
+      "choice_rationales": [
+        "Incorrect: Release/ejection of milk into the ductal system is mediated by oxytocin-induced myoepithelial contraction.",
+        "Incorrect: Milk ejection (let-down) is an oxytocin-mediated reflex.",
+        "Incorrect: High estrogen and progesterone inhibit prolactin's lactogenic effects during pregnancy.",
+        "Incorrect: Myoepithelial cell contraction is stimulated by oxytocin, not prolactin.",
+        "Correct: Prolactin stimulates mammary alveolar epithelial cells to synthesize milk and secrete it into the alveolar lumen."
+      ],
+      "key_letter": "E",
+      "correct_index": 4,
+      "accepted_correct_indices": [
+        4
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "E is correct- Prolactin has two major functions when binding to its receptor on epithelial cells: 1) to produce milk and 2) to secrete milk into the alveolar lumen (#33-34). Options B and D are functions of oxytocin (#33-34). During pregnancy, the action of prolactin on the breast is inhibited by estrogen and progesterone (C; #32).",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q23",
+      "exam_number": 23,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q15",
+      "citations": [
+        "R5–R7 Q15"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "study_skill": "interpretation",
+      "question_type": "Clinical vignette",
+      "tested_concept": "R5–R7 Q15",
+      "vignette_group_id": "phys-single-q23",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "Testes determine the formation of the male phenotype by releasing anti-Müllerian hormone and testosterone. Ovaries determine the female phenotype by releasing estrogen and progesterone. Which of the following best describes these statements?.",
+      "options": [
+        "Both statements are true",
+        "Both statements are false",
+        "The first statement is true; the second statement is false",
+        "The first statement is false; the second statement is true"
+      ],
+      "choice_rationales": [
+        "Incorrect: The second statement is false because ovarian estrogen and progesterone do not determine fetal female phenotypic sex.",
+        "Incorrect: The first statement is true.",
+        "Correct: The first statement is true (testicular AMH and testosterone drive male differentiation), while the second is false (female phenotype results from absence of AMH and testosterone, not ovarian estrogen/progesterone).",
+        "Incorrect: The first statement is true and the second is false."
+      ],
+      "key_letter": "C",
+      "correct_index": 2,
+      "accepted_correct_indices": [
+        2
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "C is correct- The determination of the male phenotype is based on the presence of two testis-releasing hormones (#5 & #7). Conversely, the female phenotype is determined by the absence of these hormones. Hence, estrogen and progesterone are not involved in the phenotypic sex formation.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q24",
+      "exam_number": 24,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q25",
+      "citations": [
+        "R5–R7 Q25"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "study_skill": "mechanism",
+      "question_type": "Clinical vignette",
+      "tested_concept": "R5–R7 Q25",
+      "vignette_group_id": "phys-single-q24",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "To meet the elevated metabolic demands for oxygen delivery, neonatal hearts primarily increase cardiac output by which of the following mechanisms?(#10)",
+      "options": [
+        "Increasing stroke volume",
+        "Increasing heart rate via adrenal catecholamine release",
+        "A dominant sympathetic tone to elevate heart rate",
+        "Failing to increase cardiac output due to limited compliance and contractility"
+      ],
+      "choice_rationales": [
+        "Incorrect: Neonatal stroke volume is relatively fixed due to limited ventricular compliance and contractile reserve.",
+        "Correct: Because sympathetic cardiac innervation is incomplete and stroke volume is fixed, neonates increase cardiac output primarily by raising heart rate via adrenal medullary catecholamine release.",
+        "Incorrect: Neonatal hearts have dominant parasympathetic tone and incomplete sympathetic innervation.",
+        "Incorrect: Neonatal hearts can increase cardiac output by increasing heart rate."
+      ],
+      "key_letter": "B",
+      "correct_index": 1,
+      "accepted_correct_indices": [
+        1
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "B is correct- In neonatal hearts, stroke volume (SV) remains constant (fixed) due to the limited capacities for cardiac compliance and contraction, which excludes option A. To meet greater metabolic needs, neonatal hearts can increase cardiac output (CO) by increasing heart rate (HR), as CO = SV x HR. Neonatal hearts have incomplete sympathetic innervation (C), the increase in heart rate is caused by an increase in catecholamine release from the adrenal medulla (B).",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q25",
+      "exam_number": 25,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q5",
+      "citations": [
+        "R5–R7 Q5"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "interpretation",
+      "question_type": "Clinical vignette",
+      "tested_concept": "R5–R7 Q5",
+      "vignette_group_id": "phys-single-q25",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "A 25-year-old man is evaluated for infertility. Laboratory studies show normal serum testosterone and luteinizing hormone levels. Genetic testing reveals a mutation resulting in absence of the aromatase enzyme in the testes. Which of the following best describes the expected finding in this patient’s plasma hormone levels?",
+      "options": [
+        "No detectable testosterone",
+        "No detectable estrogen",
+        "Approximately 20% of normal testosterone levels",
+        "Approximately 60-80% of normal estrogen levels",
+        "No detectable cortisol"
+      ],
+      "choice_rationales": [
+        "Incorrect: Serum testosterone is explicitly normal in this patient.",
+        "Incorrect: Extratesticular aromatase in adipose, skin, muscle, and vessels still produces the majority of circulating plasma estrogen.",
+        "Incorrect: Testosterone synthesis does not depend on aromatase.",
+        "Correct: Because most circulating estrogen in males comes from extratesticular peripheral aromatization, loss of testicular aromatase alone leaves ~60–80% of normal plasma estrogen intact.",
+        "Incorrect: Cortisol synthesis does not depend on aromatase."
+      ],
+      "key_letter": "D",
+      "correct_index": 3,
+      "accepted_correct_indices": [
+        3
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "D is correct- In males, the majority of circulating estrogen is produced by extratesticular aromatase, which is found in tissues such as the skin, adipose tissue, blood vessels, and muscle. These tissue-located aromatase converts circulating testosterone into estrogen. Testicular aromatase contributes primarily to local estrogen production within the testes, which is important for spermatogenesis, but has only a minor role in determining plasma estrogen levels.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q26",
+      "exam_number": 26,
+      "lecture_id": "R2",
+      "lecture_title": "R2 Male Reproductive Physiology",
+      "original_id": "Q5",
+      "citations": [
+        "R2 Q5"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "study_skill": "mechanism",
+      "question_type": "Clinical vignette",
+      "tested_concept": "R2 Q5",
+      "vignette_group_id": "phys-single-q26",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "Regarding the negative feedback regulation of the hypothalamic-pituitary-gonadal (HPG) axis by sex hormones, which of the following statements is incorrect?",
+      "options": [
+        "Testosterone released from Leydig cells exerts negative feedback on the hypothalamus and anterior pituitary, reducing kisspeptin, GnRH, LH, and FSH secretion.",
+        "Inhibin released from Sertoli cells inhibits the pituitary secretion of both FSH and LH, but does not significantly affect hypothalamic kisspeptin neuron activity.",
+        "Inhibin released from Sertoli cells selectively inhibits FSH secretion only.",
+        "Pulsatile release of GnRH is essential for gonadotropin secretion because pulsatile instead of continuous, GnRH stimulation allows receptor replenishment and sustained LH and FSH secretion."
+      ],
+      "choice_rationales": [
+        "Incorrect (True statement): Testosterone feeds back negatively on both hypothalamus (kisspeptin/GnRH) and anterior pituitary.",
+        "Correct (Incorrect statement): Inhibin B from Sertoli cells selectively inhibits FSH secretion at the anterior pituitary and has little or no significant effect on LH.",
+        "Incorrect (True statement): Inhibin selectively inhibits FSH secretion.",
+        "Incorrect (True statement): Pulsatile GnRH prevents receptor desensitization/downregulation and permits receptor replenishment."
+      ],
+      "key_letter": "B",
+      "correct_index": 1,
+      "accepted_correct_indices": [
+        1
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "The incorrect answer is ‘B’. The major physiological action of inhibin is selective inhibition of FSH secretion from gonadotrophs in the anterior pituitary. It has little or no significant effect on LH secretion and minimal effects at the hypothalamus.(Figs. 26, 29).",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q27",
+      "exam_number": 27,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q21",
+      "citations": [
+        "R5–R7 Q21"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Direct recall",
+      "tested_concept": "R5–R7 Q21",
+      "vignette_group_id": "phys-single-q27",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "A nursing mother resumes her menstrual cycle during lactation. Which of the following best explains this occurrence?",
+      "options": [
+        "Maintained low release of GnRH",
+        "Reduced gonadotropic release of FSH and LH",
+        "Reduced estrogen and progesterone",
+        "Reduced prolactin- and oxytocin-mediated inhibition of the hypothalamus",
+        "None of the above"
+      ],
+      "choice_rationales": [
+        "Incorrect: Maintained low GnRH would continue lactational amenorrhea rather than resuming menses.",
+        "Incorrect: Reduced FSH and LH would prevent ovulation and menstrual resumption.",
+        "Incorrect: Reduced estrogen and progesterone would not trigger resumption of ovulatory cycles.",
+        "Correct: Declining prolactin- and oxytocin-mediated hypothalamic inhibition allows pulsatile GnRH, FSH/LH, and menstrual cycling to resume.",
+        "Incorrect: D correctly explains resumption of menstruation during lactation."
+      ],
+      "key_letter": "D",
+      "correct_index": 3,
+      "accepted_correct_indices": [
+        3
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "D is correct- The increased levels of prolactin and oxytocin during nursing provide negative feedback to inhibit the hypothalamic release of GnRH, which subsequently reduces the pituitary release of FSH and LH, preventing the menstrual cycle (#34). When the inhibitory effect of prolactin and oxytocin declines, the function of the hypothalamus-pituitary-gonad axis resumes, allowing the menstrual cycle to restart.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q28",
+      "exam_number": 28,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q27",
+      "citations": [
+        "R5–R7 Q27"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Direct recall",
+      "tested_concept": "R5–R7 Q27",
+      "vignette_group_id": "phys-single-q28",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "Regarding non-shivering thermogenesis (NST) in neonates, which of the following statements is NOT correct?",
+      "options": [
+        "NST is an important and effective mechanism of heat production in neonates",
+        "NST depends on sympathetic stimulation of alpha-receptors in brown adipose tissue (BAT)",
+        "The content of uncoupling protein 1 (UCP1) in BAT is proportional to thermogenic capacity",
+        "alpha-receptor stimulation causes vasoconstriction, while beta-receptor activation drives NST",
+        "UCP1 expression in BAT decreases once sufficient skeletal muscle mass allows shivering thermogenesis"
+      ],
+      "choice_rationales": [
+        "Incorrect (True statement): NST is a major, effective heat-production mechanism in neonates.",
+        "Correct (NOT correct): NST in brown adipose tissue depends on sympathetic stimulation of BETA-receptors (not alpha-receptors).",
+        "Incorrect (True statement): UCP1 content in BAT correlates directly with thermogenic capacity.",
+        "Incorrect (True statement): Alpha-receptors mediate cutaneous vasoconstriction to conserve heat, while beta-receptors drive BAT NST.",
+        "Incorrect (True statement): BAT UCP1 expression declines as skeletal muscle shivering matures."
+      ],
+      "key_letter": "B",
+      "correct_index": 1,
+      "accepted_correct_indices": [
+        1
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "B is the incorrect answer- Non-shivering thermogenesis (NST) depends on the sympathetic stimulation of beta-receptors in brown adipose tissue (BAT), while the stimulation of alpha-receptors causes vasoconstriction to reduce heat loss (D; #12).",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q29",
+      "exam_number": 29,
+      "lecture_id": "R2",
+      "lecture_title": "R2 Male Reproductive Physiology",
+      "original_id": "Q2",
+      "citations": [
+        "R2 Q2"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Direct recall",
+      "tested_concept": "R2 Q2",
+      "vignette_group_id": "phys-single-q29",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "Which of these biological processes are controlled by dihydrotestosterone (DHT)?",
+      "options": [
+        "Descent of the testes into the scrotum",
+        "Formation of testes",
+        "Degeneration of the Mullerian ducts",
+        "Increases in plasma levels of LDL while reducing HDL",
+        "Responsible for sperm production in the testes."
+      ],
+      "choice_rationales": [
+        "Correct: Dihydrotestosterone (DHT) controls descent of the testes into the scrotum (as well as external male genitalia differentiation).",
+        "Incorrect: Testis formation is determined by SRY on the Y chromosome.",
+        "Incorrect: Müllerian duct degeneration is driven by anti-Müllerian hormone (AMH) from Sertoli cells.",
+        "Incorrect: Hepatic VLDL/LDL elevation and HDL reduction are driven by testosterone.",
+        "Incorrect: Spermatogenesis within the testes depends primarily on intratesticular testosterone, not DHT."
+      ],
+      "key_letter": "A",
+      "correct_index": 0,
+      "accepted_correct_indices": [
+        0
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "‘A’ is correct: DHT controls the descent of the testes into the scrotum. • B: The formation of testis is primarily determined by the sex chromosome “Y”, on which the testis-determining gene (SRY) is expressed. • C. The degeneration of the Mullerian ducts is driven by AMH. • D. Testosterone stimulates hepatic synthesis of VLDL and LDL, while inhibiting HDL production. • E. Sperm production in the testes is primarily dependent on testosterone; it is not DHT dependent event.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q30",
+      "exam_number": 30,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q23",
+      "citations": [
+        "R5–R7 Q23"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Direct recall",
+      "tested_concept": "R5–R7 Q23",
+      "vignette_group_id": "phys-single-q30",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "In response to oxytocin release during nursing in a lactating woman, which of the following occurs?",
+      "options": [
+        "Milk is synthesized and stored in the alveolar lumen",
+        "Prolactin is increased from the pituitary to stimulate milk let-down",
+        "Milk is ejected from the nipple via contraction of the lactiferous sinus",
+        "Milk flows from the alveolar lumen into the lactiferous ducts",
+        "There is increased release of insulin"
+      ],
+      "choice_rationales": [
+        "Incorrect: Milk synthesis and secretion into the alveolar lumen are stimulated by prolactin.",
+        "Incorrect: Prolactin does not cause milk let-down; oxytocin does.",
+        "Incorrect: Oxytocin contracts myoepithelial cells surrounding the alveoli, not the lactiferous sinus itself.",
+        "Correct: Oxytocin contracts mammary myoepithelial cells, propelling milk from the alveolar lumen into the lactiferous ducts (milk let-down).",
+        "Incorrect: Oxytocin does not act primarily to increase insulin release during nursing."
+      ],
+      "key_letter": "D",
+      "correct_index": 3,
+      "accepted_correct_indices": [
+        3
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "D is correct- Oxytocin contracts myoepithelial cells to eject milk stored in alveolus lumen into the ductal system (milk let down #33). Option (A) is caused by prolactin. Prolactin does not cause milk let-down (B). Oxytocin contracts myoepithelial cells, not lactiferous sinus (C; #33).",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q31",
+      "exam_number": 31,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q2",
+      "citations": [
+        "R5–R7 Q2"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "morphology",
+      "question_type": "Clinical vignette",
+      "tested_concept": "R5–R7 Q2",
+      "vignette_group_id": "phys-single-q31",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "A 12-week-old female fetus is found to have internal genitalia including the uterus, fallopian tubes, and upper vagina. These structures arise from which of the above embryologic ducts?",
+      "options": [
+        "Wolffian duct",
+        "Müllerian duct",
+        "The presence of Y chromosome",
+        "The presence of X chromosome",
+        "The absence of Y chromosome"
+      ],
+      "choice_rationales": [
+        "Incorrect: The Wolffian duct gives rise to male internal genitalia and regresses in females.",
+        "Correct: In the absence of AMH, the Müllerian (paramesonephric) duct develops into the uterus, fallopian tubes, and upper vagina.",
+        "Incorrect: The Y chromosome directs male development.",
+        "Incorrect: The X chromosome is not the embryologic duct structure itself.",
+        "Incorrect: Absence of Y chromosome is the chromosomal determinant, whereas the Müllerian duct is the embryologic duct."
+      ],
+      "key_letter": "B",
+      "correct_index": 1,
+      "accepted_correct_indices": [
+        1
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "B is correct- Without anti-Müllerian hormone (AMH), the Müllerian duct develops into the female reproductive tract, contributing to female phenotypic sex.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q32",
+      "exam_number": 32,
+      "lecture_id": "R2",
+      "lecture_title": "R2 Male Reproductive Physiology",
+      "original_id": "Q4",
+      "citations": [
+        "R2 Q4"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "mechanism",
+      "question_type": "Direct recall",
+      "tested_concept": "R2 Q4",
+      "vignette_group_id": "phys-single-q32",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "Which of the following statements about the cell biology of the testes is FALSE.",
+      "options": [
+        "Sertoli cell expressed aromatase is responsible for testicular production of estradiol.",
+        "Inhibin produced by the testicular Sertoli cells suppress follicle stimulating hormone (FSH) secretion by the anterior pituitary.",
+        "Spermatozoa from the testis are functionally immature, as they cannot penetrate an ovum.",
+        "Sertoli cells secrete testosterone via pituitary FSH binding with its receptors on the cells.",
+        "Luteinizing hormone (LH) produced by the anterior pituitary stimulates testosterone synthesis from Leydig cells that express LH-receptor."
+      ],
+      "choice_rationales": [
+        "Incorrect (True statement): Sertoli cells express aromatase to convert testosterone into estradiol.",
+        "Incorrect (True statement): Sertoli cells produce inhibin B, which suppresses anterior pituitary FSH secretion.",
+        "Incorrect (True statement): Testicular spermatozoa are functionally immature until they mature in the epididymis.",
+        "Correct (FALSE statement): Sertoli cells do NOT synthesize testosterone; Leydig cells synthesize testosterone in response to LH.",
+        "Incorrect (True statement): Pituitary LH binds LH receptors on Leydig cells to stimulate testosterone synthesis."
+      ],
+      "key_letter": "D",
+      "correct_index": 3,
+      "accepted_correct_indices": [
+        3
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "D is false: Sertoli cells don’t synthesize testosterone. (Fig. 11), the Leydig cells do (Fig.9). • A is correct: Sertoli cells contain aromatase responsible for the conversion of testosterone to estrogen (Fig.11). • B is correct: Sertoli cells produce inhibin to inhibit the pituitary release of FSH. • C is correct: Spermatozoa from the testis are functionally immature and acquire motility/fertilization ability in the epididymis. • E is correct: LH stimulates testosterone production in Leydig cells.",
+      "status": "USABLE"
+    },
+    {
+      "question_id": "repro-phys-q33",
+      "exam_number": 33,
+      "lecture_id": "R5–R7",
+      "lecture_title": "R5–R7 Pregnancy & Neonatal Physiology",
+      "original_id": "Q6",
+      "citations": [
+        "R5–R7 Q6"
+      ],
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "format_version": "clinical-visual-v1",
+      "study_skill": "interpretation",
+      "question_type": "Clinical vignette",
+      "tested_concept": "R5–R7 Q6",
+      "vignette_group_id": "phys-single-q33",
+      "vignette_label": null,
+      "case_context": null,
+      "stem": "A 5-year-old boy is evaluated for an inguinal hernia. During surgical repair, both testes and a uterus with fallopian tubes are discovered. External genitalia appear male. Which of the following best explains this finding?",
+      "options": [
+        "Deficiency of testosterone",
+        "Presence of anti-Müllerian hormone",
+        "Co-presence of increased estrogen and progesterone",
+        "Deficiency of the testes-determining gene on the Y chromosome",
+        "None of the above"
+      ],
+      "choice_rationales": [
+        "Incorrect: Male external genitalia and Wolffian structures confirm adequate testosterone.",
+        "Incorrect: Presence of AMH would have caused Müllerian duct regression rather than a persistent uterus and fallopian tubes.",
+        "Incorrect: Estrogen and progesterone do not drive fetal internal duct persistence here.",
+        "Incorrect: Presence of testes rules out deficiency of the Y-chromosome SRY gene.",
+        "Correct: None of the listed options explain persistent Müllerian duct syndrome, which is caused by a deficiency of anti-Müllerian hormone (or its receptor)."
+      ],
+      "key_letter": "E",
+      "correct_index": 4,
+      "accepted_correct_indices": [
+        4
+      ],
+      "unkeyed_in_source": false,
+      "explanation": "E is correct- The co-presence of male and female phenotypes indicates that both Wolffian and Müllerian ducts are developed. Therefore, the presence of a male reproductive tract excludes a deficiency of testosterone (A). The presence of anti-Müllerian hormone should normally degenerate Müllerian ducts, yet they were still present and formed female genitals (B). Estrogen and progesterone do not play a role in phenotypic sex formation (C). The presence of normal testes excludes a deficiency of the testes-determining gene on the Y chromosome (D). Alternatively, the deficiency of anti-mullerian hormone (not listed as an option) may be responsible.",
+      "status": "USABLE"
+    }
+  ]
+}

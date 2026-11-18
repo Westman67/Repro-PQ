@@ -3214,17 +3214,17 @@
         "Administer corticosteroids for fetal lung maturity"
       ],
       "choice_rationales": [
-        "Incorrect: While ACOG generally recommends delivery at 37 weeks for gestational hypertension, the source exam specifically keys C (expectant management with close monitoring).",
+        "Correct: At 37 weeks gestation (term), delivery is indicated for gestational hypertension without severe features per ACOG guidelines.",
         "Incorrect: Magnesium sulfate is not indicated for gestational hypertension without severe features.",
-        "Correct: Per the source exam key, gestational hypertension without severe features is managed expectantly with close monitoring unless complications arise.",
-        "Incorrect: Corticosteroids are used <34 weeks (or selected late preterm), not at 37 weeks term."
+        "Incorrect: Expectant management with close monitoring is appropriate before 37 weeks gestation, not at ≥37 weeks term.",
+        "Incorrect: Antenatal corticosteroids are used <34 weeks (or selected late preterm cases), not at 37 weeks term."
       ],
-      "key_letter": "C",
-      "correct_index": 2,
+      "key_letter": "A",
+      "correct_index": 0,
       "unkeyed_in_source": false,
       "suggested_key_letter": null,
       "suggested_correct_index": null,
-      "explanation": "Continue expectant management with close monitoring Explanation: Gestational hypertension without severe features at term may be managed expectantly with close monitoring unless complications arise.",
+      "explanation": "A. Immediate delivery — Per ACOG guidelines, delivery is recommended at ≥37 0/7 weeks gestation for gestational hypertension without severe features (expectant management is reserved for <37 weeks). (Corrected from source PDF key C.)",
       "suggested_explanation": null,
       "status": "USABLE",
       "study_skill": "management"
