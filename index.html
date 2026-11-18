@@ -552,7 +552,7 @@
         </div>
 
         <div class="field-group" style="margin-top:18px;">
-          <label>Question Filter</label>
+          <label>Question Filter (Click to Combine)</label>
           <div class="pill-row" id="filterPills"></div>
         </div>
 
@@ -760,7 +760,7 @@
       unkeyedMode: "strict",
       lectures: new Set(["R13", "R18", "R19", "R21"]),
       skills: new Set(ALL_SKILLS),
-      filter: "all",
+      filter: new Set(["all"]),
       length: "all",
       reviewFilter: "all"
     };
@@ -890,7 +890,14 @@
       dlg.showModal();
     }
 
-    function matchesFilter(q, filterName) {
+    function matchesFilter(q, filterSpec) {
+      // filterSpec may be a single filter id or a Set of ids (matches if ANY selected filter applies)
+      if (filterSpec instanceof Set) {
+        if (filterSpec.size === 0 || filterSpec.has("all")) return true;
+        for (const f of filterSpec) if (matchesFilter(q, f)) return true;
+        return false;
+      }
+      const filterName = filterSpec;
       const st = progress.questions[q.question_id] || {};
       if (filterName === "all") return true;
       if (filterName === "unseen") return !st.times_seen;
@@ -919,7 +926,7 @@
       progress = loadProgress();
       config.lectures = new Set(BANK.questions.map(q => q.lecture_id));
       config.skills = new Set(ALL_SKILLS);
-      config.filter = "all";
+      config.filter = new Set(["all"]);
       showView("viewHome");
     }
 
@@ -998,10 +1005,17 @@
         const c = lectureScoped.filter(q => matchesFilter(q, f.id)).length;
         const btn = document.createElement("button");
         btn.type = "button";
-        btn.className = "pill" + (config.filter === f.id ? " active" : "");
+        btn.className = "pill" + (config.filter.has(f.id) ? " active" : "");
         btn.innerHTML = `${f.label} <span class="pill-count">${c}</span>`;
         btn.onclick = () => {
-          config.filter = f.id;
+          if (f.id === "all") {
+            config.filter = new Set(["all"]);
+          } else {
+            config.filter.delete("all");
+            if (config.filter.has(f.id)) config.filter.delete(f.id);
+            else config.filter.add(f.id);
+            if (config.filter.size === 0) config.filter.add("all");
+          }
           renderHome();
         };
         filterContainer.appendChild(btn);
